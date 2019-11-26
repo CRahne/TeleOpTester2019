@@ -62,7 +62,7 @@ public class Robot extends TimedRobot {
     // Sets Talon to New Voltage
     Talon1.set(new_setvolt);
     
-    // 
+    // Debuggin Output
     SmartDashboard.putNumber("Setpoint", new_setvolt);
     SmartDashboard.putNumber("Target", targ);
     SmartDashboard.putNumber("Current", curr);
